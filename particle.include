@@ -1,5 +1,5 @@
 # List all files here that should be included in the build
 mqtttest.ino
-MQTT.h
-MQTT.cpp
+libraries/MQTT.h
+libraries/MQTT.cpp
 # hello-world.ino
