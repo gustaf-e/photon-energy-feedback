@@ -3,7 +3,7 @@
 void callback(char* topic, byte* payload, unsigned int length);
 byte server[] = { 192,168,43,35 };
 MQTT client(server, 1883, callback);
-byte bytebuffer[30];
+byte bytebuffer[100];
 
 // recieve message
 void callback(char* topic, byte* payload, unsigned int length) {
@@ -41,6 +41,9 @@ void callback(char* topic, byte* payload, unsigned int length) {
 }
 
 void setup() {
+    /* Init button */
+    pinMode(D0, INPUT);
+
     RGB.control(true);
 
     // connect to the server
@@ -52,10 +55,20 @@ void setup() {
         message.getBytes(bytebuffer, 20);
         client.publish("sparkcore/debug",bytebuffer, 20);
         client.subscribe("sparkcore/RGBled");
+        client.publish("sparkcore/button",bytebuffer, 20);
     }
 }
 
 void loop() {
     if (client.isConnected())
         client.loop();
+
+    /* Check button value */
+    if (digitalRead(D0)) {
+        String message = "test_measurement test_key=123";
+        message.getBytes(bytebuffer, 6);
+        client.publish("sparkcore/button",bytebuffer, 6);
+        while(digitalRead(D0));
+        delay(10);
+    } 
 }
