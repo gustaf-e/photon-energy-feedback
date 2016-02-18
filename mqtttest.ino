@@ -66,13 +66,11 @@ void loop() {
 
     /* Check button value */
     if (digitalRead(D0)) {
-        String message = "test_measurement test_key=123";
-        message.getBytes(bytebuffer, 6);
-        client.publish("sparkcore/button", "test_measurement test_key=123");
+        client.publish("sparkcore/button", "test_measurement2 test_key=123");
         while(digitalRead(D0));
         delay(10);
     } 
 
-    delay(100);
+    delay(500);
     client.publish("analogread", String(analogRead(A1)));
 }
