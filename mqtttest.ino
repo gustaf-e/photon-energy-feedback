@@ -43,6 +43,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 void setup() {
     /* Init button */
     pinMode(D0, INPUT);
+    pinMode(A1, INPUT);
 
     RGB.control(true);
 
@@ -67,8 +68,11 @@ void loop() {
     if (digitalRead(D0)) {
         String message = "test_measurement test_key=123";
         message.getBytes(bytebuffer, 6);
-        client.publish("sparkcore/button",bytebuffer, 6);
+        client.publish("sparkcore/button", "test_measurement test_key=123");
         while(digitalRead(D0));
         delay(10);
     } 
+
+    delay(100);
+    client.publish("analogread", String(analogRead(A1)));
 }
