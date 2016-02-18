@@ -18,8 +18,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
         RGB.color(255, 0, 0);
 
         String message = "RED";
-        message.getBytes(bytebuffer, 4);
-        client.publish("sparkcore/debug",bytebuffer, 4);
+        client.publish("sparkcore/debug",message);
     }
     else if (message.equals("GREEN")) {
         RGB.color(0, 255, 0);
@@ -75,7 +74,7 @@ void loop() {
     }
 
     /* Read analog value */
-    pirValue = analogRead(A1);
-    delay(500);
-    client.publish("analogread", String(pirValue));
+    /* pirValue = analogRead(A1); */
+    /* delay(500); */
+    /* client.publish("analogread", String(pirValue)); */
 }
