@@ -14,7 +14,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
     p[length] = NULL;
     String message(p);
 
-    if (message.equals("RED")) { 
+    if (message.equals("RED")) {
         RGB.color(255, 0, 0);
 
         String message = "RED";
@@ -37,7 +37,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
         client.publish("sparkcore/debug",bytebuffer, 5);
     }
 
-    else    
+    else
         RGB.color(255, 255, 255);
     delay(1000);
 }
@@ -62,6 +62,7 @@ void setup() {
     }
 }
 
+int pirValue;
 void loop() {
     if (client.isConnected())
         client.loop();
@@ -71,8 +72,10 @@ void loop() {
         client.publish("sparkcore/button", "test_measurement2 test_key=123");
         while(digitalRead(D0));
         delay(10);
-    } 
+    }
 
+    /* Read analog value */
+    pirValue = analogRead(A1);
     delay(500);
-    client.publish("analogread", String(analogRead(A1)));
+    client.publish("analogread", String(pirValue));
 }
