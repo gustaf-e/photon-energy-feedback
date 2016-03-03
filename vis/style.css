@@ -1,0 +1,45 @@
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	-webkit-app-region: drag;
+}
+
+#wrapper {
+	display: block;
+}
+
+#circle {
+	position: relative;
+	margin: 0 auto;
+	/*width: 200px;
+	height: 200px;*/
+}
+
+img {
+    width: auto;
+    height: 180px;
+    vertical-align: top;
+    border-radius: 50%;
+    margin-left: 70px;
+	margin-top: 30px;
+}
+  
+canvas {
+    position: absolute;
+    /*left: 0;
+    top: 0;*/
+}
+
+#people {
+	font-size: 25px;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+
+#keywords {
+	margin-top: 40px;
+	margin-left: 65px;
+	left: 0;
+	font-size: 25px;
+	font-family: sans-serif;
+}

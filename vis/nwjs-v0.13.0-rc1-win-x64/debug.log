@@ -1,0 +1,646 @@
+[0303/114638:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/114638:ERROR:crash_report_database_win.cc(549)] CreateDirectory C:\Users\Mikael\AppData\Local\User Data\Crashpad: The system cannot find the path specified. (0x3)
+[0303/114638:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/114638:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/115141:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/115141:ERROR:crash_report_database_win.cc(549)] CreateDirectory C:\Users\Mikael\AppData\Local\User Data\Crashpad: The system cannot find the path specified. (0x3)
+[0303/115141:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/115141:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/115141:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/115249:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/115249:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/115249:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/115249:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/115319:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/115319:ERROR:image_metadata_extractor.cc(114)] Couldn't load libexif. 126
+[0303/115606:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/115606:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/115606:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/115606:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/120024:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/120024:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/120024:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/120024:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/120125:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/120125:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/120125:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/120125:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/124415:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/124415:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/124415:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/124415:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/124628:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/124628:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/124628:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/124628:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/124709:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/124709:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/124709:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/124709:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/125222:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/125222:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/125222:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/125222:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/125721:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/125721:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/125721:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/125721:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/130417:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/130525:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/131050:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/131050:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/131051:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131051:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131115:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/131115:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/131115:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131115:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131231:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/131231:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/131231:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131232:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131533:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/131534:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/131534:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131534:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131641:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/131641:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/131641:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131641:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131718:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/131718:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/131718:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131718:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131759:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/131759:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/131759:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/131759:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/132930:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/132930:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/132930:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/132930:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133140:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/133140:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/133140:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133140:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133245:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/133245:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/133245:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133245:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133436:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/133436:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/133436:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133436:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133714:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/133714:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/133714:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133714:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133751:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/133751:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/133752:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133752:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133813:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/133813:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/133813:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133813:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133913:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/133913:ERROR:image_metadata_extractor.cc(114)] Couldn't load libexif. 126
+[0303/134018:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/134018:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/134018:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/134018:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/134243:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/134243:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/134244:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/134244:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/134326:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/134326:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/134326:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/134326:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/134813:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/134813:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/134813:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/134813:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/134933:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/134933:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/134933:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/134934:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/135519:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/135519:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/135519:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/135519:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/135557:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/135557:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/135557:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/135557:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/135729:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/135729:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/135729:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/135729:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/135838:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/135838:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/135838:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/135838:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140036:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140036:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140036:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140036:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140308:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140308:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140308:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140308:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140329:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140329:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140329:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140329:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140415:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140415:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140415:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140415:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140518:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140518:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140518:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140518:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140648:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140648:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140649:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140649:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140800:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140800:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140800:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140801:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140836:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140836:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140836:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140836:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140905:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140905:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140906:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140906:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140913:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140913:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140913:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140913:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140923:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/140923:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/140923:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/140923:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141042:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/141042:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/141042:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141042:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141146:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/141146:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/141146:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141146:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141505:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/141505:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/141505:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141505:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141528:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/141528:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/141528:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141528:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141559:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/141559:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/141559:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141559:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141654:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/141654:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/141654:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141654:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141804:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/141804:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/141804:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141804:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141822:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/141822:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/141822:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141822:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141836:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/141836:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/141836:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141836:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141950:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/141950:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/141950:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/141950:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142100:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142100:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142100:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142100:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142156:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142156:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142156:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142156:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142229:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142229:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142229:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142229:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142312:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142312:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142312:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142312:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142333:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142333:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142333:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142333:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142651:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142651:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142651:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142651:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142703:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142703:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142703:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142703:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142739:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142739:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142739:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142739:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142747:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142747:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142747:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142747:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142814:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142814:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142814:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142814:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142821:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142821:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142821:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142821:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142834:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142834:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142834:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142834:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142938:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/142938:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/142938:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/142938:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143155:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/143155:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/143155:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143155:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143429:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/143429:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/143429:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143429:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143447:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/143447:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/143447:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143447:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143455:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/143455:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/143455:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143455:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143529:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/143530:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/143530:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143530:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143544:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/143544:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/143544:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/143544:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144042:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/144042:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/144042:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144042:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144329:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/144329:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/144329:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144329:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144355:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/144355:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/144355:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144355:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144416:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/144416:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/144416:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144416:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144426:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/144426:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/144426:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144427:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144447:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/144447:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/144447:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144447:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144550:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/144550:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/144550:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144550:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144739:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/144739:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/144739:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144739:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144925:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/144925:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/144925:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/144925:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145004:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145004:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145004:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145004:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145024:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145024:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145024:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145024:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145041:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145041:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145041:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145042:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145056:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145056:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145056:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145056:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145123:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145123:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145123:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145123:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145130:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145130:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145130:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145130:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145139:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145139:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145139:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145139:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145149:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145149:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145149:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145149:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145207:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145207:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145207:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145207:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145215:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145215:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145215:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145215:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145254:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145254:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145255:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145255:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145309:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/145309:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/145309:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/145309:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/150459:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/150459:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/150459:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/150459:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/150516:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/150516:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/150516:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/150516:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/152345:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/152345:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/152345:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/152345:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/152417:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/152417:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/152417:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/152417:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/152429:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/152430:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/152430:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/152430:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/152544:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/152544:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/152544:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/152544:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/153504:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/153504:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/153504:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/153504:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/153508:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/153508:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/153508:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/153508:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/154615:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/154615:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/154615:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/154615:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/154752:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/154752:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/154752:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/154753:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/155032:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/155032:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/155032:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/155032:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/155115:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/155115:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/155115:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/155116:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/155136:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/155136:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/155136:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/155136:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/155348:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/155348:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/155348:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/155348:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/155424:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/155424:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/155424:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/155424:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/161902:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/161902:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/161902:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/161902:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/161930:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/161930:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/161930:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/161930:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/162027:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/162027:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/162027:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/162027:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163406:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/163406:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/163406:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163407:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163601:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/163601:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/163601:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163601:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163635:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/163635:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/163635:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163635:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163709:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/163709:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/163709:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163709:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163729:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/163729:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/163729:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163729:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163830:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/163830:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/163830:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163830:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163852:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/163852:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/163852:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163852:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163904:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/163904:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/163904:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163904:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163920:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/163920:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/163920:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/163921:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164036:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164036:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164036:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164036:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164049:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164049:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164049:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164049:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164132:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164132:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164132:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164132:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164200:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164200:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164201:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164201:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164221:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164221:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164221:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164222:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164245:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164245:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164245:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164245:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164258:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164258:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164258:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164258:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164428:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164428:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164429:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164429:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164447:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164447:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164447:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164447:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164507:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164507:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164507:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164507:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164524:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164524:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164524:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164524:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164549:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164549:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164549:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164549:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164603:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164603:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164603:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164603:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164646:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164646:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164646:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164646:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164721:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164721:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164721:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164721:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164803:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164803:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164803:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164840:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164840:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164840:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164840:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164856:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164856:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164856:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164856:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164908:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164908:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164908:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164908:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164940:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/164940:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/164940:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/164940:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165010:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/165010:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/165010:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165011:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165035:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/165035:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/165036:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165036:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165047:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/165047:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/165047:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165047:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165100:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/165100:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/165100:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165100:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165108:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/165108:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/165108:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165108:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165125:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/165125:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/165125:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165125:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165727:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/165727:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/165727:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165727:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165752:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/165752:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/165752:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165753:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165915:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/165915:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/165915:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165915:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165948:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/165948:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/165948:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/165948:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172218:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/172218:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/172218:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172218:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172231:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/172231:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/172231:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172231:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172252:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/172252:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/172252:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172252:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172600:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/172600:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/172600:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172600:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172612:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/172612:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/172612:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172612:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172834:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/172834:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/172834:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/172834:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/174357:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/174357:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/174357:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/174357:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/174412:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0303/174413:INFO:nw_package.cc(175)] "C:\Users\Mikael\Desktop\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0303/174413:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0303/174413:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
