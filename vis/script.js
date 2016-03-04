@@ -77,3 +77,16 @@ socket.on('connect', function() {
 			console.log("Received msg from topic: " +msg);
 	});
 });
+
+
+// Calculate the offset as a percentage, accounting for the height of the window
+var x_offset = ((map.position().left-150))/(old_width/2);
+var y_offset = ((map.position().top-150))/(old_width/2);
+
+var css_properties = {
+    width: new_width,
+    // Set the offset based on the existing percentage rather than 1/2
+    // then readjust for the height of the window
+    left: (new_width * x_offset /2 ) + 150 + "px", 
+    top: (new_width * y_offset /2 ) + 150 + "px"
+};
