@@ -57,6 +57,8 @@ $('#circle').circleProgress({
 var socket = io.connect('http://livinglab.powerprojects.se:5000');
 var number_of_people = $('#people');
 var power_usage = $('#keywords');
+var key;
+var counter = 0;
 
 socket.on('connect', function() {
 	
@@ -66,7 +68,25 @@ socket.on('connect', function() {
 		
 		if (msg.topic == "app/powerUsage") {
 			var obj = JSON.parse(msg.payload);
-			power_usage.text(Math.round(obj.value*50000) + ' W');
+			key = Math.round(obj.value*50000);
+			switch(counter){
+				case 0:
+					$('#keywords').text(text[counter] + Math.round(key/5) + ' W');
+					break;
+				case 1:
+					$('#keywords').text(text[counter] + key + ' W');
+					break;
+				case 2:
+					$('#keywords').text(text[counter] + key + ' W');
+					break;
+				case 3:
+					$('#keywords').text(text[counter] + Math.round(key/8) + ' W');
+					break;		
+				case 4:
+					$('#keywords').text(text[counter] + key + ' W');
+					break;	
+			}
+			//power_usage.text(Math.round(obj.value*50000) + ' W');
 			$('#circle').circleProgress('value', obj.value);			
 		}
 		else if(msg.topic == "app/numPeople") {
@@ -77,3 +97,28 @@ socket.on('connect', function() {
 			console.log("Received msg from topic: " +msg);
 	});
 });
+
+var text = ["El/person: ", "Närvaroel: ", "Frånvaroel: ", "El/arbetstimma: ", "Elförbrukning: "];
+
+setInterval(change, 5000);
+function change() {
+	switch(counter){
+		case 0:
+			$('#keywords').text(text[counter] + key/5 + ' W');
+			break;
+		case 1:
+			$('#keywords').text(text[counter] + key + ' W');
+			break;
+		case 2:
+			$('#keywords').text(text[counter] + key + ' W');
+			break;
+		case 3:
+			$('#keywords').text(text[counter] + key/8 + ' W');
+			break;		
+		case 4:
+			$('#keywords').text(text[counter] + key + ' W');
+			break;	
+	}
+	counter++;
+	if(counter >= text.length) { counter = 0; }
+}

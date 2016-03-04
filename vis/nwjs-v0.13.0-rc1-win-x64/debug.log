@@ -786,3 +786,55 @@
 [0304/130638:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
 [0304/133913:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
 [0304/133914:ERROR:image_metadata_extractor.cc(114)] Couldn't load libexif. 126
+[0304/143413:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/143414:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/143414:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/143414:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/150809:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/150809:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/150809:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/150809:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/150909:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/150909:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/150909:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/150909:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/150940:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/150941:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/150941:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/150941:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/151123:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/151124:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/151124:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/151124:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/165811:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/165812:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/165812:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/165812:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/170736:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/170737:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/170737:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/170737:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/170834:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/170834:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/170834:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/170834:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/170918:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/170918:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/170918:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/170918:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/171106:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/171106:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/171106:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/171106:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/171240:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/171240:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/171241:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/171241:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/171439:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/171440:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/171440:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/171440:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/171800:ERROR:crashpad_client_win.cc(316)] CreateProcess: The system cannot find the file specified. (0x2)
+[0304/171800:INFO:nw_package.cc(175)] "C:\Users\Mikael\photon-energy-feedback\vis\nwjs-v0.13.0-rc1-win-x64\nw.exe" .
+[0304/171800:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
+[0304/171800:ERROR:registration_protocol_win.cc(53)] CreateFile: The system cannot find the path specified. (0x3)
