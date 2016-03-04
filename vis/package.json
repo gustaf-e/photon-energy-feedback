@@ -6,7 +6,7 @@
  "window":{
 		   "toolbar":false,
 		   "frame":false,
-		   "transparent":false,
+		   "transparent":true,
 		   "width":250,
 		   "height":370,
 		   "max_width":250,

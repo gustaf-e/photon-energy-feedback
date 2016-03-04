@@ -2,7 +2,7 @@ body{
 	overflow-x: hidden;
 	overflow-y: hidden;
 	-webkit-app-region: drag;
-	background-color: rgba(f,f,f,0);
+	background-color: rgba(255,255,255,0.2);
 }
 
 #wrapper {
@@ -32,6 +32,8 @@ canvas {
 }
 
 #people {
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 25px;
 	font-family: 'Century Gothic';
 	margin-bottom: 10px;
@@ -39,6 +41,8 @@ canvas {
 }
 
 #keywords {
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	margin-top: 40px;
 	margin-left: 65px;
 	left: 0;
