@@ -106,11 +106,11 @@ void loop() {
 
 void read(boolean updateMean) {
   pirValue = analogRead(PIR);
-  pirValues[counter % NUMMEASUREMENTS] = pirValue;
   if (updateMean) {
+    pirValues[counter % NUMMEASUREMENTS] = pirValue;
     mean = getMean();
+    counter++;
   }
-  counter++;
 #ifdef DEBUGSERIAL
   Serial.print(pirValue);
   Serial.print('\n');
