@@ -1,9 +1,12 @@
+#include "MQTT.h"
+
 #define NUMMEASUREMENTS 100
 #define MINMEASUREMENTS 3
 #define THRESHOLD 30
 #define PIR A0
 #define DEBUGSERIAL
 #define TIMEOUT 7
+#define CACHE_SIZE 1
 
 // TODO IMPORTANT A0 max 3.3V protect somehow? resistor?
 
@@ -13,6 +16,13 @@ int counter = 0;
 int mean;
 int measurements;
 int timeout_counter;
+int cached_values = 0;
+int cached_directions = 0;
+
+void callback(char* topic, byte* payload, unsigned int length);
+byte server[] = { 192,168,43,35 };
+MQTT client(server, 1883, callback);
+byte bytebuffer[100];
 
 void setup() {
 #ifdef DEBUGSERIAL
@@ -28,6 +38,9 @@ void setup() {
     pirValues[i] = analogRead(PIR);
     delay(100);
   }
+
+  // connect to the server
+  client.connect("spark_client");
 
   // Signal ready with green LED
   RGB.color(0, 255, 0);
@@ -62,8 +75,7 @@ void loop() {
       read(false);
     }
     if (measurements >= MINMEASUREMENTS) {
-      // TODO add mqtt code here for example
-      Particle.publish("motion", "blue");
+      send_motion(1);
     }
     RGB.color(0, 0, 0);
     measurements = 0;
@@ -93,8 +105,7 @@ void loop() {
       read(false);
     }
     if (measurements >= MINMEASUREMENTS) {
-      // TODO add mqtt code here for example
-      Particle.publish("motion", "green");
+      send_motion(-1);
     }
     RGB.color(0, 0, 0);
     measurements = 0;
@@ -102,6 +113,30 @@ void loop() {
   }
 
   delay(100);
+}
+
+boolean send_motion(int direction) {
+  cached_values++;
+  cached_directions += direction;
+  if (cached_values >= CACHE_SIZE) {
+    // send motion detected
+    if (!client.isConnected()) {
+      client.connect("spark_client");
+    }
+    if (client.isConnected()) { // TODO what if not connected?
+      String message = String(cached_directions);
+      cached_values = 0;
+      cached_directions = 0;
+      message.getBytes(bytebuffer, 20);
+      client.publish("sensor1/motion" , message);
+      /* client.publish("analogprint",bytebuffer, 20); */
+      return true;
+    }
+    RGB.color(255, 0, 0);
+    delay(1000);
+    return false;
+  }
+  return true;
 }
 
 void read(boolean updateMean) {
@@ -123,4 +158,8 @@ int getMean() {
     sum += pirValues[i];
   }
   return sum / NUMMEASUREMENTS;
+}
+
+/* Not really used but still required */
+void callback(char* topic, byte* payload, unsigned int length) {
 }
