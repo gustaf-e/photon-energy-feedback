@@ -56,7 +56,10 @@ $('#circle').circleProgress({
 
 var socket = io.connect('http://livinglab.powerprojects.se:5000');
 var number_of_people = $('#people');
-var power_usage = $('#keywords');
+var persons;
+var presence_power;
+var absence_power;
+var working_hours = 8;
 var key;
 var counter = 0;
 
@@ -70,28 +73,39 @@ socket.on('connect', function() {
 		if (msg.topic == "app/powerUsage") {
 			var obj = JSON.parse(msg.payload);
 			key = Math.round(obj.value*50000);
+			if(persons == 0){
+				absence_power = key;
+			}
+			else{
+				presence_power = key;
+			}
 			switch(counter){
 				case 0:
-					$('#keywords').text(text[counter] /*+ Math.round(key/5)*/ + ' W');
+					$('#keywords').text(text[counter] + Math.round(key/persons) + ' W');
 					break;
 				case 1:
-					$('#keywords').text(text[counter] /*+ key*/ + ' W');
+					$('#keywords').text(text[counter] + presence_power + ' W');
 					break;
 				case 2:
-					$('#keywords').text(text[counter] /*+ key*/ + ' W');
+					$('#keywords').text(text[counter] + absence_power + ' W');
 					break;
 				case 3:
-					$('#keywords').text(text[counter] /*+ Math.round(key/8)*/ + ' W');
+					$('#keywords').text(text[counter] + Math.round(key/working_hours) + ' W');
 					break;		
 				case 4:
 					$('#keywords').text(text[counter] + key + ' W');
 					break;	
 			}
-			//power_usage.text(Math.round(obj.value*50000) + ' W');
 			$('#circle').circleProgress('value', obj.value);			
 		}
 		else if(msg.topic == "app/numPeople") {
 			var obj = JSON.parse(msg.payload);
+			if(obj.value < 0){
+				persons = 0;
+			}
+			else{
+				persons = obj.value;
+			}
 			number_of_people.text('Antal personer: ' + obj.value);
 		}
 		else
@@ -105,16 +119,16 @@ setInterval(change, 5000);
 function change() {
 	switch(counter){
 		case 0:
-			$('#keywords').text(text[counter] /*+ key/5*/ + ' W');
+			$('#keywords').text(text[counter] + Math.round(key/persons) + ' W');
 			break;
 		case 1:
-			$('#keywords').text(text[counter] /*+ key*/ + ' W');
+			$('#keywords').text(text[counter] + presence_power + ' W');
 			break;
 		case 2:
-			$('#keywords').text(text[counter] /*+ key*/ + ' W');
+			$('#keywords').text(text[counter] + absence_power + ' W');
 			break;
 		case 3:
-			$('#keywords').text(text[counter] /*+ key/8*/ + ' W');
+			$('#keywords').text(text[counter] + Math.round(key/working_hours) + ' W');
 			break;		
 		case 4:
 			$('#keywords').text(text[counter] + key + ' W');
