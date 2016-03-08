@@ -58,7 +58,7 @@ var socket = io.connect('http://livinglab.powerprojects.se:5000');
 var number_of_people = $('#people');
 var persons;
 var presence_power;
-var absence_power;
+var absence_power = 0;
 var working_hours = 8;
 var key;
 var counter = 0;
@@ -88,7 +88,8 @@ socket.on('connect', function() {
 					$('#keywords').text(text[counter] + presence_power + ' W');
 					break;
 				case 2:
-					$('#keywords').text(text[counter] + absence_power + ' W');
+					if(absence_power != 0)
+						$('#keywords').text(text[counter] + absence_power + ' W');
 					break;
 				case 3:
 					$('#keywords').text(text[counter] + Math.round(key/working_hours) + ' W');
@@ -127,7 +128,8 @@ function change() {
 			$('#keywords').text(text[counter] + presence_power + ' W');
 			break;
 		case 2:
-			$('#keywords').text(text[counter] + absence_power + ' W');
+			if(absence_power != 0)
+				$('#keywords').text(text[counter] + absence_power + ' W');
 			break;
 		case 3:
 			$('#keywords').text(text[counter] + Math.round(key/working_hours) + ' W');
