@@ -52,6 +52,7 @@ void setup() {
 
 void loop() {
   read(true);
+  RGB.color(0, 0, 0);
 
   if (pirValue - THRESHOLD > mean) { // If high spike
     while(pirValue - THRESHOLD > mean) { // Ride high wave
@@ -72,17 +73,16 @@ void loop() {
     // Ride following lower wave 
     // TODO require lower wave or not? Test in real world
     while(pirValue + THRESHOLD2 < mean) {
-      RGB.color(0, 0, 255); // Signal motion detected
       measurements2++;
       delay(100);
       read(false);
     }
     if (measurements >= MINMEASUREMENTS && measurements2 >= MINMEASUREMENTS2) {
+      RGB.color(0, 0, 255); // Signal motion detected
       send_motion(1);
     }
     measurements = 0;
     measurements2 = 0;
-    RGB.color(0, 0, 0);
   }
   else if (pirValue + THRESHOLD < mean) { // If low spike
     while(pirValue + THRESHOLD < mean) { // Ride low wave
@@ -103,19 +103,21 @@ void loop() {
     // Ride following higher wave
     // TODO require wave or not? Test in real world
     while(pirValue - THRESHOLD2 > mean) {
-      RGB.color(0, 255, 0); // Signal motion detected
       measurements2++;
       delay(100);
       read(false);
     }
     if (measurements >= MINMEASUREMENTS && measurements2 >= MINMEASUREMENTS2) {
+      RGB.color(255, 255, 0); // Signal motion detected
       send_motion(-1);
     }
     measurements = 0;
     measurements2 = 0;
-    RGB.color(0, 0, 0);
   }
 
+  if (client.isConnected()) {
+    client.loop(); // Keep connection alive
+  }
   delay(100);
 }
 
@@ -136,8 +138,10 @@ boolean send_motion(int direction) {
       /* client.publish("analogprint",bytebuffer, 20); */
       return true;
     }
+    // Red LED if error
     RGB.color(255, 0, 0);
-    delay(1000);
+    delay(2000);
+    RGB.color(0, 0, 0);
     return false;
   }
   return true;
