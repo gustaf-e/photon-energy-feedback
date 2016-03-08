@@ -62,7 +62,8 @@ var counter = 0;
 
 socket.on('connect', function() {
 	
-	socket.emit('subscribe',{topic: "app/powerUsage/#" });
+	socket.emit('subscribe',{topic: "app/powerUsage/#"});
+	socket.emit('subscribe',{topic: "app/numPeople/#"});
 		
 	socket.on('mqtt', function (msg) {
 		
@@ -71,16 +72,16 @@ socket.on('connect', function() {
 			key = Math.round(obj.value*50000);
 			switch(counter){
 				case 0:
-					$('#keywords').text(text[counter] + Math.round(key/5) + ' W');
+					$('#keywords').text(text[counter] /*+ Math.round(key/5)*/ + ' W');
 					break;
 				case 1:
-					$('#keywords').text(text[counter] + key + ' W');
+					$('#keywords').text(text[counter] /*+ key*/ + ' W');
 					break;
 				case 2:
-					$('#keywords').text(text[counter] + key + ' W');
+					$('#keywords').text(text[counter] /*+ key*/ + ' W');
 					break;
 				case 3:
-					$('#keywords').text(text[counter] + Math.round(key/8) + ' W');
+					$('#keywords').text(text[counter] /*+ Math.round(key/8)*/ + ' W');
 					break;		
 				case 4:
 					$('#keywords').text(text[counter] + key + ' W');
@@ -104,16 +105,16 @@ setInterval(change, 5000);
 function change() {
 	switch(counter){
 		case 0:
-			$('#keywords').text(text[counter] + key/5 + ' W');
+			$('#keywords').text(text[counter] /*+ key/5*/ + ' W');
 			break;
 		case 1:
-			$('#keywords').text(text[counter] + key + ' W');
+			$('#keywords').text(text[counter] /*+ key*/ + ' W');
 			break;
 		case 2:
-			$('#keywords').text(text[counter] + key + ' W');
+			$('#keywords').text(text[counter] /*+ key*/ + ' W');
 			break;
 		case 3:
-			$('#keywords').text(text[counter] + key/8 + ' W');
+			$('#keywords').text(text[counter] /*+ key/8*/ + ' W');
 			break;		
 		case 4:
 			$('#keywords').text(text[counter] + key + ' W');
