@@ -2,7 +2,9 @@
 
 #define NUMMEASUREMENTS 100
 #define MINMEASUREMENTS 3
-#define THRESHOLD 30
+#define MINMEASUREMENTS2 1
+#define THRESHOLD 15
+#define THRESHOLD2 15
 #define PIR A0
 #define DEBUGSERIAL
 #define TIMEOUT 7
@@ -14,7 +16,7 @@ int pirValue;
 int pirValues[NUMMEASUREMENTS];
 int counter = 0;
 int mean;
-int measurements;
+int measurements, measurements2;
 int timeout_counter;
 int cached_values = 0;
 int cached_directions = 0;
@@ -52,7 +54,6 @@ void loop() {
   read(true);
 
   if (pirValue - THRESHOLD > mean) { // If high spike
-    RGB.color(0, 0, 255);
     while(pirValue - THRESHOLD > mean) { // Ride high wave
       measurements++; // Require minimum measurements
       delay(100);
@@ -60,7 +61,7 @@ void loop() {
     }
     // Wait for transition from high to low
     timeout_counter = 0;
-    while(pirValue + THRESHOLD > mean && pirValue - THRESHOLD < mean) {
+    while(pirValue + THRESHOLD2 > mean && pirValue - THRESHOLD < mean) {
       delay(100);
       read(false);
       timeout_counter++;
@@ -70,19 +71,20 @@ void loop() {
     }
     // Ride following lower wave 
     // TODO require lower wave or not? Test in real world
-    while(pirValue + THRESHOLD < mean) {
+    while(pirValue + THRESHOLD2 < mean) {
+      RGB.color(0, 0, 255); // Signal motion detected
+      measurements2++;
       delay(100);
       read(false);
     }
-    if (measurements >= MINMEASUREMENTS) {
+    if (measurements >= MINMEASUREMENTS && measurements2 >= MINMEASUREMENTS2) {
       send_motion(1);
     }
-    RGB.color(0, 0, 0);
     measurements = 0;
-    delay(1000);
+    measurements2 = 0;
+    RGB.color(0, 0, 0);
   }
   else if (pirValue + THRESHOLD < mean) { // If low spike
-    RGB.color(0, 255, 0);
     while(pirValue + THRESHOLD < mean) { // Ride low wave
       measurements++; // Require minimum measurements
       delay(100);
@@ -90,7 +92,7 @@ void loop() {
     }
     // Wait for transition from low to high
     timeout_counter = 0;
-    while(pirValue + THRESHOLD > mean && pirValue - THRESHOLD < mean) {
+    while(pirValue + THRESHOLD > mean && pirValue - THRESHOLD2 < mean) {
       delay(100);
       read(false);
       timeout_counter++;
@@ -100,16 +102,18 @@ void loop() {
     }
     // Ride following higher wave
     // TODO require wave or not? Test in real world
-    while(pirValue - THRESHOLD > mean) {
+    while(pirValue - THRESHOLD2 > mean) {
+      RGB.color(0, 255, 0); // Signal motion detected
+      measurements2++;
       delay(100);
       read(false);
     }
-    if (measurements >= MINMEASUREMENTS) {
+    if (measurements >= MINMEASUREMENTS && measurements2 >= MINMEASUREMENTS2) {
       send_motion(-1);
     }
-    RGB.color(0, 0, 0);
     measurements = 0;
-    delay(1000);
+    measurements2 = 0;
+    RGB.color(0, 0, 0);
   }
 
   delay(100);
@@ -121,7 +125,7 @@ boolean send_motion(int direction) {
   if (cached_values >= CACHE_SIZE) {
     // send motion detected
     if (!client.isConnected()) {
-      client.connect("spark_client");
+      client.connect("sensor1");
     }
     if (client.isConnected()) { // TODO what if not connected?
       String message = String(cached_directions);
