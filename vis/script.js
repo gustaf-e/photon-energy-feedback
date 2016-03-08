@@ -81,7 +81,8 @@ socket.on('connect', function() {
 			}
 			switch(counter){
 				case 0:
-					$('#keywords').text(text[counter] + Math.round(key/persons) + ' W');
+					if(persons != 0)
+						$('#keywords').text(text[counter] + Math.round(key/persons) + ' W');
 					break;
 				case 1:
 					$('#keywords').text(text[counter] + presence_power + ' W');
@@ -119,7 +120,8 @@ setInterval(change, 5000);
 function change() {
 	switch(counter){
 		case 0:
-			$('#keywords').text(text[counter] + Math.round(key/persons) + ' W');
+			if(persons != 0)
+				$('#keywords').text(text[counter] + Math.round(key/persons) + ' W');
 			break;
 		case 1:
 			$('#keywords').text(text[counter] + presence_power + ' W');
