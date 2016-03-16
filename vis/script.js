@@ -54,7 +54,6 @@ $('#circle').circleProgress({
 	}
 });
 
-var socket = io.connect('http://livinglab.powerprojects.se:5000');
 var number_of_people = $('#people');
 var persons;
 var presence_power;
@@ -62,6 +61,8 @@ var absence_power = 0;
 var working_hours = 8;
 var key;
 var counter = 0;
+
+var socket = io.connect('http://livinglab.powerprojects.se:5000');
 
 socket.on('connect', function() {
 	
